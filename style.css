@@ -1,0 +1,33 @@
+.show {display:block}
+.shadow{
+    background-color: #f0f0f7;
+    position: absolute;
+    margin: auto;
+    top:100px;
+    height:auto;
+    width:500px;
+    /* padding:20px 30px 0 30px; */
+    box-shadow: 20px 20px 20px rgb(209, 205, 205);
+    border-radius: 10px;
+    animation-name: fromTop;
+    animation-duration: 0.5s;
+    left: 0;
+    right: 0;
+    /* left: 30%; */
+}
+
+@keyframes fromTop {
+    0%   {top:0px;}
+    100% {top:100px;}
+}
+
+#alerta{
+    position: absolute;
+    top: 0!important;
+    width:100vw;
+    padding: 1rem;
+}
+
+button{
+    margin-right: 10px;
+}
