@@ -1,4 +1,5 @@
 # Modal e alertas totalmente personalizável.
+# Link do código em funcionamento: https://logngo.com.br/alerts/
 # Função em javascript para personalizar tipo de mensagem (alerta, info, success...) e o texto pode ser personalizável tanbém.
 Coloque esse arquivo no seu diretório principal 
 e chame as funções com seus devidos nomes para dar 
